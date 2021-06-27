@@ -1,5 +1,6 @@
 local helium = require 'helium'
 local scene = helium.scene.new(true)
+scene:activate()
 
 local elementCreator = helium(function(param, view)
 	return function()
